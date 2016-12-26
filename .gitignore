@@ -1,0 +1,6 @@
+# Default files
+HEAD
+config
+description
+hooks/
+info/
