@@ -12,12 +12,20 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
 	<script type="text/javascript" src="https://cdn.datatables.net/v/bs-3.3.7/dt-1.10.13/datatables.min.js"></script>
 </head>
+<style media="screen">
+	table#example tbody tr td:nth-child(1),
+	table#example tbody tr td:nth-child(4),
+	table#example tbody tr td:nth-child(5),
+	table#example tbody tr td:nth-child(7) {
+		text-align: center;
+		}
+</style>
 <body>
 	<div class="well well-lg">
 		<i class="fa fa-500px">Testing</i>
 	</div>
 
-	<table id="example" class="table table-bordered display" cellspacing="0" width="100%">
+	<table id="example" class="table table-bordered display table-hover table-striped" cellspacing="0" width="100%">
 	        <thead>
 	            <tr>
 					<th>Icon</th>
@@ -6604,9 +6612,9 @@
 					<td>Web Application</td> <!-- category -->
 				</tr>
 				<tr>
-					<td><i class="fa fa-tencento-weibo"></i></td>
-					<td>Tencento weibo</td> <!-- name -->
-					<td>fa fa-tencento-weibo</td>
+					<td><i class="fa fa-tencent-weibo"></i></td>
+					<td>Tencent weibo</td> <!-- name -->
+					<td>fa fa-tencent-weibo</td>
 					<td>&amp;#xf1d5;</td> <!-- unicode -->
 					<td>\f1d5</td>
 					<td></td> <!-- aliases -->
